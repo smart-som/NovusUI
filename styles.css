@@ -5,6 +5,11 @@ body {
   font-size: 22px;
 }
 
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .hero-section {
   position: relative;
   height: 100vh;
@@ -129,6 +134,27 @@ p {
 .purple {
   color: #ed36fe;
 }
+
+.footer {
+  height: 437px;
+  background-color: #8e69f0;
+}
+
+.footer-text {
+  color: #fff;
+  /* font-weight: 100px; */
+  font-size: 15px;
+}
+
+.footer-header {
+  color: #fff;
+}
+
+.footer-text-legal {
+  color: #fff;
+  font-size: 15px;
+}
+
 /* Media Query for small screens */
 @media (max-width: 768px) {
   .nav-bar {
