@@ -119,9 +119,16 @@ p {
 
 .about-section {
   background-color: #f1ebff;
-  height: 986px;
+  height: 786px;
 }
 
+.third-section {
+  height: 465px;
+}
+
+.purple {
+  color: #ed36fe;
+}
 /* Media Query for small screens */
 @media (max-width: 768px) {
   .nav-bar {
@@ -151,5 +158,10 @@ p {
 
   .logo {
     margin: 0;
+  }
+
+  .about-section {
+    background-color: #f1ebff;
+    height: 1548px;
   }
 }
